@@ -19,7 +19,7 @@ function fakeapi(url){
     },Math.round(Math.random() * 3000));
   });
 }
-const fakeapidata = {
+let fakeapidata = {
   'books': [
     {title: 'Pride and Prejudice', author: 'Jane Austen', release_date: '1813-01-28'},
     {title: 'To Kill a Mockingbird', author: 'Harper Lee', release_date: '1960-07-11'},
