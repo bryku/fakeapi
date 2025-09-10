@@ -2,6 +2,16 @@
 
 A fake fetch function that works with custom data. Which you can replace with your live api.
 
+# Setting Data
+
+	fakeapidata = {
+		'books': [
+			{title: 'Pride and Prejudice', author: 'Jane Austen', release_date: '1813-01-28'},
+			{title: 'To Kill a Mockingbird', author: 'Harper Lee', release_date: '1960-07-11'},
+			{title: 'The Hobbit', author: 'J.R.R. Tolkien', release_data: '1937-09-21'},
+		],
+	};
+
 # Example 1
 
 Javascript:
@@ -72,3 +82,4 @@ Output:
 ```
     'UNKNOWN REQUEST'
 ```
+
